@@ -54,3 +54,9 @@ function closeModal() {
 cs('.pizzaInfo--cancelButton, .pizzaInfo--cancelMobileButton').forEach((item)=>{
     item.addEventListener('click', closeModal);
 });
+c('.pizzaInfo--qtmenos').addEventListener('click', ()=>{
+    if(modalQt > 1) {
+        modalQt--;
+        c('.pizzaInfo--qt').innerHTML = modalQt;
+    }
+});
