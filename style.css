@@ -38,3 +38,11 @@ header {
     height:32px;
     display:none;
     font-size: 30px;
+}
+aside {
+    background-color:#9ccbe6;
+    width:0vw;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    transition:all ease .2s;
+    overflow-x:hidden;
+}
