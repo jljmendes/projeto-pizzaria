@@ -59,3 +59,7 @@ main {
 h1 {
     font-family:'Hepta Slab', Helvetica, Arial;
 }
+.pizza-area {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
