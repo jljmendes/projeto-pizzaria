@@ -52,3 +52,7 @@ aside.show {
 .cart--area {
     padding:20px;
 }
+main {
+    flex:1;
+    padding:20px;
+}
